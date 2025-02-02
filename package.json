@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "node build.mjs && node invoke.js"
+  },
+	"dependencies": {
+		"esbuild": "0.24.2",
+		"shimmer": "1.2.1",
+    "@sentry/esbuild-plugin": "3.1.1"
+	}
+}
